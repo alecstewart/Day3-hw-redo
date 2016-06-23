@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Calc-redo</title>
+  <meta name="description" content="is-javascript-the-devil">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<audio source src="buttons.mp3" autoplay></audio>
+<div class="vertical-container">
+  <form class="form">
+    <div class"row">
+      <input type="button" value="C" id="calcBtnC" class="flex-1" />
+      <input type="text" value="0" id="calcNum1" />
+    </div>
+        <div class="row">
+          <input type="button" value="7" id="calcBtn7" />
+          <input type="button" value="8" id="calcBtn8" />
+          <input type="button" value="9" id="calcBtn9" />
+          <input type="button" value="/" id="calcBtndi" />
+      </div>
+      <div class="row">
+          <input type="button" value="4" id="calcBtn4" />
+          <input type="button" value="5" id="calcBtn5" />
+          <input type="button" value="6" id="calcBtn6" />
+          <input type="button" value="*" id="calcBtnti" />
+      </div>
+      <div class="row">
+          <input type="button" value="1" id="calcBtn1" />
+          <input type="button" value="2" id="calcBtn2" />
+          <input type="button" value="3" id="calcBtn3" />
+          <input type="button" value="-" id="calcBtnNeg" />
+      </div>
+      <div class="row">
+          <input type="button" value="0" id="calcBtnZ" />
+          <input type="button" value="." id="calcBtnDot" />
+          <input type="button" value="=" id="calcBtnEq" />
+          <input type="button" value="+" id="calcBtnPlus" />
+      </div>
+      <div class="calcAnswer">
+        <hr />
+          <STRONG>ANSWER:</STRONG><span id="calcAnswerOutput"></span>
+      </div>
+  </form>
+</div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="js/calc3.js"></script>
+  </body>
+</html>
